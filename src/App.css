@@ -1,38 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .App {
-  text-align: center;
+
+  width: 100%;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Homepage {
+
+  background-color: aquamarine;
+  width: 100%;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.Header {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
+  width: 100%;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+.Title {
+  
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.Title li {
+
+  margin-right: 400px;
+
+}
+
+.navBar {
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.searchBar {
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+.login {
+
+  background-color: #333;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+
+}
+
+.loginButton {
+
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Content {
+
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Content h1 {
+
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+
+.Footer {
+
+  background-color: #191919;
+  padding-bottom: 48px;
+  width: 100%;
+  height: 50vh;
+  
 }
