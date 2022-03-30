@@ -10,12 +10,12 @@ const Content = () => {
       <h1>Featured Events</h1>
 
       <div className='most popular'> 
-      
+        
       </div>
 
-      <div className=''> </div>
-
-
+      <div className='otherPop'> 
+      
+      </div>
 
     </div>
 
@@ -23,7 +23,11 @@ const Content = () => {
     <div className='Concerts'>
       <h1>Concerts</h1>
 
+        <div className='concertList'>
 
+            
+
+        </div>
 
     </div>
 
@@ -31,17 +35,31 @@ const Content = () => {
     <div className='Sports'>
       <h1>Sports</h1>
 
+        <div className='sportsList'>
+
+            
+
+        </div>
+
     </div>
 
     
     <div className='Arts/Theater'>
       <h1>Arts/Theater</h1>
 
+        <div className='artsList'>
+
+        </div>
+
     </div>
 
     
     <div className='Family'>
       <h1>Family</h1>
+
+        <div className='familyList'>
+
+        </div>
 
     </div>
 
